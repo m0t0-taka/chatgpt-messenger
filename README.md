@@ -10,6 +10,10 @@
 
 ## メモ
 
+### Next.js 13
+
 - app directory を使用。default の index.tsx は不要のため削除。app directory を追加して`npm run dev`を実行すると、head, layout が作成される
 
-- カスタム CSS を global.css に作成
+### tailwindCSS カスタム CSS
+
+- カスタム CSS を styles/global.css に作成
