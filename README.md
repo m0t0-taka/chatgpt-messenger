@@ -2,11 +2,21 @@
 
 `npx create-next-app -e with-tailwindcss chatgpt-messenger`
 
+`npm run dev`
+
 ## 使用技術
 
+- Authentication
+
+  - [NextAuth.js](https://next-auth.js.org/getting-started/example)
+
 - UI
-  - tailwindCSS
+
+  - Tailwind CSS
   - Heroicons
+
+- Firebase
+  - Authentication
 
 ## メモ
 
@@ -17,3 +27,9 @@
 ### tailwindCSS カスタム CSS
 
 - カスタム CSS を styles/global.css に作成
+
+### ログイン
+
+id と secret は、Firebase の Authentication の「ウェブ SDK 構成」を使用する
+
+GCP でログイン時のリダイレクト先を設定する必要あり。
