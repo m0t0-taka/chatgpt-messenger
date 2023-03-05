@@ -17,6 +17,7 @@
 
 - Firebase
   - Authentication
+  - Firestore
 
 ## メモ
 
@@ -33,3 +34,10 @@
 id と secret は、Firebase の Authentication の「ウェブ SDK 構成」を使用する
 
 GCP でログイン時のリダイレクト先を設定する必要あり。
+
+### Firebase
+
+`npm install firebase`
+
+`npm i react-firebase-hooks`
+[Doc](https://www.npmjs.com/package/react-firebase-hooks)
