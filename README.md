@@ -2,7 +2,7 @@
 
 `npx create-next-app -e with-tailwindcss chatgpt-messenger`
 
-`npm run dev`
+`yarn dev`
 
 ## 使用技術
 
@@ -23,7 +23,7 @@
 
 ### Next.js 13
 
-- app directory を使用。default の index.tsx は不要のため削除。app directory を追加して`npm run dev`を実行すると、head, layout が作成される
+- app directory を使用。default の index.tsx は不要のため削除。app directory を追加して`yarn dev`を実行すると、head, layout が作成される
 
 ### tailwindCSS カスタム CSS
 
@@ -37,7 +37,13 @@ GCP でログイン時のリダイレクト先を設定する必要あり。
 
 ### Firebase
 
-`npm install firebase`
+`yarn add firebase`
 
-`npm i react-firebase-hooks`
+`yarn add react-firebase-hooks`
 [Doc](https://www.npmjs.com/package/react-firebase-hooks)
+
+### ライブラリ
+
+#### HOT TOAST
+
+`yarn add react-hot-toast`
